@@ -46,7 +46,7 @@ public class TorpedoStore {
       success = true;
     } else {
       // simulated failure
-      success = false;
+      success = false; // happens if launcher is overheated
     }
 
     return success;
